@@ -21,7 +21,7 @@ from openblock_api_sdk_python.client import CompanyWalletClient
 import openblock_api_sdk_python.param.company_param as company_param
 
 # Refer to https://docs.openblock.com/OpenBlock/API/Enterprise%20Wallet/#overview to get your api key and secret
-client = CompanyWalletClient.CompanyWalletClient(
+client = CompanyWalletClient(
     api_key="YOUR API KEY",
     secret="YOUR SECRET",
 )
